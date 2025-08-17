@@ -76,7 +76,6 @@ function flatten(data: PromptsJson | null): FlatPrompt[] {
 
 
 // ---- Egne Prompts ----
-import { useState } from "react";
 
 function EgnePrompter({ prompts, addPrompt, removePrompt, onCopy }) {
   const [text, setText] = useState("");
