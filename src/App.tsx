@@ -130,6 +130,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<string>('')
   const [q, setQ] = useState('')
   const [copied, setCopied] = useState(false)
+  const [openNew, setOpenNew] = useState(false)
 
   // keep Tailwind dark mode in sync with state
   useEffect(() => {
