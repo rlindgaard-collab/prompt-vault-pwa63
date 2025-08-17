@@ -337,7 +337,7 @@ const handleCopy = (text: string) => {
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3">
-                  {custom.map(p => ()
+                  {custom.map(p => (
                     <div key={p.id} className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4">
                       <div className="text-xs text-slate-500 dark:text-slate-400 mb-2">
                         {p.tab} / {p.section} / {p.category}
